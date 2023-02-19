@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     
     // добавил элементы в сториборд
+    // add buttons in storyboard
     
     override func viewDidLoad() {
         super.viewDidLoad()
