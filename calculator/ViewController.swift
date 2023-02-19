@@ -9,15 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet var buttonsOutlet: [UIButton]!
     
-    // добавил элементы в сториборд
-    // add buttons in storyboard
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        buttonChenge()
+        
+        }
+        
+    func buttonChenge(){
+        for button in buttonsOutlet{
+            button.layer.cornerRadius = 50
+            }
     }
-
-
 }
 
