@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
         buttonChenge()
-        
+         
         }
         
     func buttonChenge(){
